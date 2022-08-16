@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     display: flex;
     justify-content: center;
@@ -170,5 +174,43 @@
  height: 80px;
  background-color: white;
  padding: 10px;
- 
+
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+#send{
+    padding: 10px;
+    margin: 40px;
+    width: 10%;
+    border: none;
+    outline: none;
 }
